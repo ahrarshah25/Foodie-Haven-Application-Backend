@@ -24,7 +24,7 @@ export default async function approveRequest(req, res) {
       },
     });
 
-    await transporter.sendMail({
+    await transpoter.sendMail({
       from: process.env.EMAIL,
       to: process.env.ADMIN_EMAIL,
       subject: "📋 New Vendor Request - Foodie Haven",
@@ -133,7 +133,7 @@ export default async function approveRequest(req, res) {
     `,
     });
 
-    await transporter.sendMail({
+    await transpoter.sendMail({
       from: process.env.EMAIL,
       to: userEmail,
       subject: "✅ Vendor Application Received - Foodie Haven",
