@@ -26,7 +26,7 @@ export default async function approveRequest(req, res) {
 
     await transpoter.sendMail({
       from: process.env.EMAIL,
-      to: process.env.ADMIN_EMAIL,
+      to: process.env.EMAIL,
       subject: "📋 New Vendor Request - Foodie Haven",
       html: `
     <!DOCTYPE html>
@@ -282,6 +282,6 @@ export default async function approveRequest(req, res) {
     return res.status(200).json({ success: true });
   } catch (error) {
     console.error(error.message);
-    return res.status(400).json({ success: false });
+    return res.status(400).json({ success: false, message: "Error: " + error.message });
   }
 }
