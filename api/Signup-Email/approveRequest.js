@@ -93,11 +93,11 @@ export default async function approveRequest(req, res) {
                     </div>
                     <div class="info-row">
                         <div class="info-label">Requested Date:</div>
-                        <div class="info-value">${new Date().toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</div>
+                        <div class="info-value">${new Date().toLocaleDateString("en-PK", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</div>
                     </div>
                     <div class="info-row">
                         <div class="info-label">Application Time:</div>
-                        <div class="info-value">${new Date().toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" })}</div>
+                        <div class="info-value">${new Date().toLocaleTimeString("en-PK", { hour: "2-digit", minute: "2-digit" })}</div>
                     </div>
                 </div>
                 
@@ -215,7 +215,7 @@ export default async function approveRequest(req, res) {
                     </div>
                     <div class="info-row">
                         <div class="info-label">Submission Date:</div>
-                        <div class="info-value">${new Date().toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</div>
+                        <div class="info-value">${new Date().toLocaleDateString("en-PK", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</div>
                     </div>
                 </div>
                 
