@@ -187,7 +187,7 @@ export default async function loginAlert(req, res) {
                 <p class="footer-text">This is an automated security alert from Foodie Haven</p>
                 <p class="footer-text">If you have any concerns about your account security, please contact our support team immediately.</p>
                 <p class="footer-text" style="margin-top: 15px;">
-                    📧 <a href="mailto:security@foodiehaven.com" style="color: #FFD700; text-decoration: none;">security@foodiehaven.com</a> | 
+                    📧 <a href="mailto:ahrar.0932@gmail.com" style="color: #FFD700; text-decoration: none;">security@foodiehaven.com</a> | 
                     🌐 <a href="https://foodie-haven-application.vercel.app/help" style="color: #FFD700; text-decoration: none;">Help Center</a>
                 </p>
                 <p class="footer-text" style="margin-top: 20px; font-size: 12px;">

@@ -111,7 +111,7 @@ export default async function approveSuccess(req, res) {
                     <span class="logo-icon">🎉</span>
                     <span class="logo-text">Foodie Haven</span>
                 </div>
-                <h1 class="title">Request Approved Successfully!</h1>
+                <h1 class="title" style="color: white">Request Approved Successfully!</h1>
                 <p class="subtitle">Welcome to the Foodie Haven Vendor Family</p>
             </div>
             
